@@ -10,7 +10,7 @@ export class Articles {
   bookmarksStorageName: string = "bookmarks";
   cacheStorageName: string = "cache";
   data: any;
-  baseUrl: string = ""; // wp-api url
+  baseUrl: string = "https://alnabba-alyemeni.net"; // wp-api url
   per_page: number = 10;
   constructor(private http: Http, private socialSharing: SocialSharing, private toastCtrl: ToastController, private storage: Storage) {}
 
